@@ -33,7 +33,6 @@ html {
  @media (min-width: 40rem) {
       html { font-size: 112%; }
            
-           
      .column {
          float: left;
          padding-left: 1rem;
@@ -46,7 +45,6 @@ html {
      .column.third { width: 33.3%; }
      .column.fourth { width: 25%; }
      .column.flow-opposite { float: right; }  
- 
    
  }
  
@@ -54,3 +52,14 @@ html {
  @media (min-width: 64rem) {
              html { font-size: 120%; }
  }
+ 
+ .clearfix:before,
+ .clearfix:after {
+    content: " ";
+    display: table;
+ }
+
+ .clearfix:after {
+       clear: both;
+ }
+   
