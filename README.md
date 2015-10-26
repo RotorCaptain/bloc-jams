@@ -1,0 +1,1 @@
+This is a replica of Rdio written in HTML, CSS & JavaScript.
